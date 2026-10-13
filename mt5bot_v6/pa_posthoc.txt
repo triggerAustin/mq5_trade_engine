@@ -1,0 +1,19 @@
+[09:56:38] POST-HOC (information only): Stage A window, drawdown halt switched off, 2019 onward NOT loaded
+[09:56:38]   EURUSD: 145,762 hourly candles -> 25,161 H4 candles, 2003-06-01 20:00:00 -> 2018-12-31 20:00:00
+[09:56:39]   GBPUSD: 145,724 hourly candles -> 25,161 H4 candles, 2003-06-01 20:00:00 -> 2018-12-31 20:00:00
+[09:56:39]   USDJPY: 145,729 hourly candles -> 25,159 H4 candles, 2003-06-01 20:00:00 -> 2018-12-31 20:00:00
+[09:56:39]   AUDUSD: 143,819 hourly candles -> 24,687 H4 candles, 2003-08-03 20:00:00 -> 2018-12-31 20:00:00
+[09:56:40]   candle 0/25162 2003-06-01 20:00:00 balance $10,000 trades 0
+[09:56:40]   candle 20000/25162 2015-10-18 20:00:00 balance $1,146 trades 2389
+[09:56:41] [post-hoc] $10k realistic, no halt: trades 3060 (skipped: min-lot 0, slots 29, beyond-stop 6) | mean R -0.086 (95% low -0.134) | PF 0.86 | win 33% | maxDD 94.3% | end $679 | Sharpe -0.76 | costs $3,434 swap $-336
+[09:56:42]   candle 0/25162 2003-06-01 20:00:00 balance $10,000 trades 0
+[09:56:42]   candle 20000/25162 2015-10-18 20:00:00 balance $621 trades 2384
+[09:56:43] [post-hoc] $10k harsh, no halt: trades 3010 (skipped: min-lot 68, slots 26, beyond-stop 4) | mean R -0.131 (95% low -0.179) | PF 0.81 | win 32% | maxDD 98.0% | end $232 | Sharpe -1.08 | costs $5,264 swap $-943
+[09:56:43] by pair  (n, mean R): AUDUSD: 729, -0.109, EURUSD: 776, -0.171, GBPUSD: 784, -0.013, USDJPY: 771, -0.053
+[09:56:43] by pattern (n, mean R): engulf: 2105, -0.075, pin: 955, -0.111
+[09:56:43] by direction (n, mean R): short: 1470, -0.094, long: 1590, -0.078
+[09:56:43] exits: {'stop': 1978, 'target': 837, 'time': 226, 'target_gap': 10, 'stop_gap': 9}
+[09:56:43] trades and mean R by exit year: 2003: 80, -0.04, 2004: 181, -0.16, 2005: 170, -0.17, 2006: 181, +0.09, 2007: 190, -0.12, 2008: 207, -0.09, 2009: 195, +0.03, 2010: 200, -0.10, 2011: 214, -0.08, 2012: 216, -0.11, 2013: 205, +0.10, 2014: 208, -0.32, 2015: 185, -0.12, 2016: 222, -0.02, 2017: 195, -0.27, 2018: 211, +0.02
+[09:56:43] first-half mean R -0.078, second-half mean R -0.094
+[09:56:43] yearly returns: 2003: -4.0%, 2004: -26.3%, 2005: -25.2%, 2006: +16.3%, 2007: -20.5%, 2008: -18.1%, 2009: +4.9%, 2010: -18.5%, 2011: -17.6%, 2012: -21.3%, 2013: +18.6%, 2014: -48.1%, 2015: -24.0%, 2016: -5.4%, 2017: -35.3%, 2018: +6.5%
+[09:56:43] Reminder: the locked Stage A gate result (FAILED) and the sealed Stage B are unchanged by this run.

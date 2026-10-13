@@ -1,0 +1,21 @@
+   FAIL: stop-first: net -$9,843.75
+   FAIL: stop-first: R = -9843.75 / 9637.5
+[    0s] U) hand-worked candles and trades: FAIL
+[    0s]    ... reference seed 0 done (254 trades)
+[    1s]    ... reference seed 1 done (212 trades)
+[    1s]    ... reference seed 2 done (246 trades)
+[    1s]    ... reference seed 3 done (244 trades)
+[    1s] A) independent reference vs engine, 4 runs, 956 trades compared (costs, swap, USD-base, small account): PASS
+[    5s]    ... 4/16 random-walk portfolios done
+[    8s]    ... 8/16 random-walk portfolios done
+[   13s]    ... 12/16 random-walk portfolios done
+[   17s]    ... 16/16 random-walk portfolios done
+[   17s] B) zero-cost random walks, 16 portfolios x 4 pairs x 8 years, 31178 trades: mean R +0.032 (s.e. 0.007)  PASS
+[   20s]    ... 4/16 random-walk portfolios done
+[   24s]    ... 8/16 random-walk portfolios done
+[   28s]    ... 12/16 random-walk portfolios done
+[   31s]    ... 16/16 random-walk portfolios done
+[   31s] C) mutation: signal peeks 6 candles ahead -> mean R +0.824 (neutral +0.032)  DETECTED
+[   33s] D) costs: end equity free 16,264 > realistic 6,944 > harsh 3,574; costs $6,866, swap $-444  PASS
+
+OVERALL: SOMETHING IS WRONG - do not trust results from this engine  (33s)
